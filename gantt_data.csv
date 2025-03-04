@@ -1,0 +1,289 @@
+Task,Resource,Start,Duration,Finish,Completion_pct,Trustee_Zone,Category,Notes
+Planning & Preparation,Project Manager,2025-02-27,2,2025-03-01,100,0,Planning,
+Data Closet Assessment,Project Manager,2025-02-28,3,2025-03-03,80,0,Planning,
+Team Assignments,Project Manager,2025-03-01,1,2025-03-02,100,0,Planning,
+A. Lorne Cassidy: Delivery,Delivery Team,2023-03-29,1,2023-03-30,100,1,Delivery,
+A. Lorne Cassidy: Installation,Installation Team,2023-03-30,1,2023-03-31,100,1,Installation,
+Adrianne Clarkson: Delivery,Delivery Team,2023-04-25,1,2023-04-26,100,7,Delivery,
+Adrianne Clarkson: Installation,Installation Team,2023-04-26,1,2023-04-27,100,7,Installation,
+Agincourt PS: Delivery,Delivery Team,2023-08-07,1,2023-08-08,100,5,Delivery,
+Agincourt PS: Installation,Installation Team,2023-08-08,1,2023-08-09,100,5,Installation,
+AltaVista PS: Delivery,Delivery Team,2023-05-02,1,2023-05-03,100,6,Delivery,
+AltaVista PS: Installation,Installation Team,2023-05-03,1,2023-05-04,100,6,Installation,
+Arch St. PS: Delivery,Delivery Team,2023-05-02,1,2023-05-03,100,6,Delivery,
+Arch St. PS: Installation,Installation Team,2023-05-03,1,2023-05-04,100,6,Installation,
+Avalon PS: Delivery,Delivery Team,2023-06-05,1,2023-06-06,100,8,Delivery,
+Avalon PS: Installation,Installation Team,2023-06-06,1,2023-06-07,100,8,Installation,
+Bayshore PS: Delivery,Delivery Team,2023-06-18,1,2023-06-19,100,4,Delivery,
+Bayshore PS: Installation,Installation Team,2023-06-19,1,2023-06-20,100,4,Installation,
+Bayview PS: Delivery,Delivery Team,2023-06-07,1,2023-06-08,100,11,Delivery,
+Bayview PS: Installation,Installation Team,2023-06-08,1,2023-06-09,100,11,Installation,
+Bells Corners PS: Delivery,Delivery Team,2023-02-02,1,2023-02-03,100,5,Delivery,
+Bells Corners PS: Installation,Installation Team,2023-02-03,1,2023-02-04,100,5,Installation,
+Berrigan PS: Delivery,Delivery Team,2023-07-24,1,2023-07-25,100,3,Delivery,
+Berrigan PS: Installation,Installation Team,2023-07-25,1,2023-07-26,100,3,Installation,
+Blossom Park PS: Delivery,Delivery Team,2023-08-01,1,2023-08-02,100,11,Delivery,
+Blossom Park PS: Installation,Installation Team,2023-08-02,1,2023-08-03,100,11,Installation,
+Briargreen PS: Delivery,Delivery Team,2023-08-07,1,2023-08-08,100,3,Delivery,
+Briargreen PS: Installation,Installation Team,2023-08-08,1,2023-08-09,100,3,Installation,
+Bridlewood PS: Delivery,Delivery Team,2023-07-31,1,2023-08-01,100,2,Delivery,
+Bridlewood PS: Installation,Installation Team,2023-08-01,1,2023-08-02,100,2,Installation,
+Broadview PS: Delivery,Delivery Team,2023-05-11,1,2023-05-12,100,10,Delivery,"Only 6 UPS  are needed, the remaining one UPS will be moved to AY jackson"
+Broadview PS: Installation,Installation Team,2023-05-12,1,2023-05-13,100,10,Installation,"Only 6 UPS  are needed, the remaining one UPS will be moved to AY jackson"
+Cambridge PS: Delivery,Delivery Team,2023-04-25,1,2023-04-26,100,6,Delivery,"
+"
+Cambridge PS: Installation,Installation Team,2023-04-26,1,2023-04-27,100,6,Installation,"
+"
+Carson Grove PS: Delivery,Delivery Team,2023-02-13,1,2023-02-14,100,12,Delivery,
+Carson Grove PS: Installation,Installation Team,2023-02-14,1,2023-02-15,100,12,Installation,
+Castlefrank PS: Delivery,Delivery Team,2023-08-03,1,2023-08-04,100,2,Delivery,
+Castlefrank PS: Installation,Installation Team,2023-08-04,1,2023-08-05,100,2,Installation,
+Castor Valley PS: Delivery,Delivery Team,2023-02-28,1,2023-03-01,100,7,Delivery,
+Castor Valley PS: Installation,Installation Team,2023-03-01,1,2023-03-02,100,7,Installation,
+Cedarview MS: Delivery,Delivery Team,2023-03-27,1,2023-03-28,100,3,Delivery,
+Cedarview MS: Installation,Installation Team,2023-03-28,1,2023-03-29,100,3,Installation,
+Centennial PS: Delivery,Delivery Team,2023-06-20,1,2023-06-21,100,10,Delivery,
+Centennial PS: Installation,Installation Team,2023-06-21,1,2023-06-22,100,10,Installation,
+Century PS: Delivery,Delivery Team,2025-03-03,1,2025-03-04,0,Closed,Delivery,
+Century PS: Installation,Installation Team,2025-03-04,1,2025-03-05,0,Closed,Installation,
+Chapman Mills PS: Delivery,Delivery Team,2023-07-10,1,2023-07-11,100,7,Delivery,
+Chapman Mills PS: Installation,Installation Team,2023-07-11,1,2023-07-12,100,7,Installation,
+Charles Hulse PS: Delivery,Delivery Team,2023-02-13,1,2023-02-14,100,6,Delivery,"3 UPS connected to one recepticle, One more receptilce needed"
+Charles Hulse PS: Installation,Installation Team,2023-02-14,1,2023-02-15,100,6,Installation,"3 UPS connected to one recepticle, One more receptilce needed"
+Churchill PS: Delivery,Delivery Team,2023-08-08,1,2023-08-09,100,10,Delivery,
+Churchill PS: Installation,Installation Team,2023-08-09,1,2023-08-10,100,10,Installation,
+Clifford Bowey: Delivery,Delivery Team,2023-08-09,1,2023-08-10,100,11,Delivery,
+Clifford Bowey: Installation,Installation Team,2023-08-10,1,2023-08-11,100,11,Installation,
+Connaught PS: Delivery,Delivery Team,2023-08-13,1,2023-08-14,100,10,Delivery,
+Connaught PS: Installation,Installation Team,2023-08-14,1,2023-08-15,100,10,Installation,
+Convent Glen ES: Delivery,Delivery Team,2023-08-14,1,2023-08-15,100,8,Delivery,
+Convent Glen ES: Installation,Installation Team,2023-08-15,1,2023-08-16,100,8,Installation,
+Crystal Bay CNTR: Delivery,Delivery Team,2023-08-23,1,2023-08-24,100,4,Delivery,
+Crystal Bay CNTR: Installation,Installation Team,2023-08-24,1,2023-08-25,100,4,Installation,
+D. Roy Kennedy PS: Delivery,Delivery Team,2023-02-14,1,2023-02-15,100,4,Delivery,
+D. Roy Kennedy PS: Installation,Installation Team,2023-02-15,1,2023-02-16,100,4,Installation,
+Devonshire PS: Delivery,Delivery Team,2023-08-16,1,2023-08-17,100,10,Delivery,
+Devonshire PS: Installation,Installation Team,2023-08-17,1,2023-08-18,100,10,Installation,
+Dunlop PS: Delivery,Delivery Team,2023-07-25,1,2023-07-26,100,11,Delivery,1 Faulty UPS here to be picked up and replaced
+Dunlop PS: Installation,Installation Team,2023-07-26,1,2023-07-27,100,11,Installation,1 Faulty UPS here to be picked up and replaced
+Elgin St. PS: Delivery,Delivery Team,2023-04-27,1,2023-04-28,100,10,Delivery,
+Elgin St. PS: Installation,Installation Team,2023-04-28,1,2023-04-29,100,10,Installation,
+Elmdale PS: Delivery,Delivery Team,2023-08-21,1,2023-08-22,100,0,Delivery,
+Elmdale PS: Installation,Installation Team,2023-08-22,1,2023-08-23,100,0,Installation,
+Emily Carr PS: Delivery,Delivery Team,2023-07-18,1,2023-07-19,100,10,Delivery,
+Emily Carr PS: Installation,Installation Team,2023-07-19,1,2023-07-20,100,10,Installation,
+Fallingbrook ES: Delivery,Delivery Team,2023-03-30,1,2023-03-31,100,8,Delivery,
+Fallingbrook ES: Installation,Installation Team,2023-03-31,1,2023-04-01,100,8,Installation,
+Farley Mowat PS: Delivery,Delivery Team,2023-08-21,1,2023-08-22,100,7,Delivery,
+Farley Mowat PS: Installation,Installation Team,2023-08-22,1,2023-08-23,100,7,Installation,
+Featherston Dr. PS: Delivery,Delivery Team,2023-03-02,1,2023-03-03,100,6,Delivery,
+Featherston Dr. PS: Installation,Installation Team,2023-03-03,1,2023-03-04,100,6,Installation,
+Fielding Dr. PS: Delivery,Delivery Team,2023-08-13,1,2023-08-14,100,11,Delivery,
+Fielding Dr. PS: Installation,Installation Team,2023-08-14,1,2023-08-15,100,11,Installation,
+First Ave. PS: Delivery,Delivery Team,2023-05-09,1,2023-05-10,100,9,Delivery,
+First Ave. PS: Installation,Installation Team,2023-05-10,1,2023-05-11,100,9,Installation,
+Fisher Park PS: Delivery,Delivery Team,2023-08-01,1,2023-08-02,100,10,Delivery,
+Fisher Park PS: Installation,Installation Team,2023-08-02,1,2023-08-03,100,10,Installation,
+General Vanier PS: Delivery,Delivery Team,2023-08-14,1,2023-08-15,100,11,Delivery,
+General Vanier PS: Installation,Installation Team,2023-08-15,1,2023-08-16,100,11,Installation,
+Glashan PS: Delivery,Delivery Team,2023-08-22,1,2023-08-23,100,10,Delivery,
+Glashan PS: Installation,Installation Team,2023-08-23,1,2023-08-24,100,10,Installation,
+Glen Cairn PS: Delivery,Delivery Team,2023-08-03,1,2023-08-04,100,2,Delivery,
+Glen Cairn PS: Installation,Installation Team,2023-08-04,1,2023-08-05,100,2,Installation,
+Glen Ogilvie PS: Delivery,Delivery Team,2023-07-03,1,2023-07-04,100,12,Delivery,"2 UPS connected to the recepticle,  One UPS is unused.  One recepticle is needed"
+Glen Ogilvie PS: Installation,Installation Team,2023-07-04,1,2023-07-05,100,12,Installation,"2 UPS connected to the recepticle,  One UPS is unused.  One recepticle is needed"
+Goulbourn MS: Delivery,Delivery Team,2023-07-04,1,2023-07-05,100,1,Delivery,
+Goulbourn MS: Installation,Installation Team,2023-07-05,1,2023-07-06,100,1,Installation,
+Hawthorne PS: Delivery,Delivery Team,2023-08-13,1,2023-08-14,100,6,Delivery,"1 unused UPS in DC1, due to having only 2 recepticle instead of 3"
+Hawthorne PS: Installation,Installation Team,2023-08-14,1,2023-08-15,100,6,Installation,"1 unused UPS in DC1, due to having only 2 recepticle instead of 3"
+Henry Munroe MS: Delivery,Delivery Team,2023-07-10,1,2023-07-11,100,12,Delivery,"only one UPS connected to the the recepticle, the two other UPS are still sitting there. Two more receptile needs to installed for the UPS"
+Henry Munroe MS: Installation,Installation Team,2023-07-11,1,2023-07-12,100,12,Installation,"only one UPS connected to the the recepticle, the two other UPS are still sitting there. Two more receptile needs to installed for the UPS"
+Heritage PS: Delivery,Delivery Team,2023-06-25,1,2023-06-26,100,8,Delivery,
+Heritage PS: Installation,Installation Team,2023-06-26,1,2023-06-27,100,8,Installation,
+Hopewell Ave. PS: Delivery,Delivery Team,2023-05-11,1,2023-05-12,100,9,Delivery,
+Hopewell Ave. PS: Installation,Installation Team,2023-05-12,1,2023-05-13,100,9,Installation,
+Huntley Centennial PS: Delivery,Delivery Team,2023-03-16,1,2023-03-17,100,1,Delivery,
+Huntley Centennial PS: Installation,Installation Team,2023-03-17,1,2023-03-18,100,1,Installation,
+Jockvale ES: Delivery,Delivery Team,2023-08-14,1,2023-08-15,100,3,Delivery,
+Jockvale ES: Installation,Installation Team,2023-08-15,1,2023-08-16,100,3,Installation,
+Kanata Highlands PS: Delivery,Delivery Team,2023-05-14,1,2023-05-15,100,2,Delivery,.20 not UPDATED
+Kanata Highlands PS: Installation,Installation Team,2023-05-15,1,2023-05-16,100,2,Installation,.20 not UPDATED
+Knoxdale PS: Delivery,Delivery Team,2023-01-30,1,2023-01-31,100,3,Delivery,
+Knoxdale PS: Installation,Installation Team,2023-01-31,1,2023-02-01,100,3,Installation,
+Lady Evelyn Alt.: Delivery,Delivery Team,2023-05-15,1,2023-05-16,100,9,Delivery,
+Lady Evelyn Alt.: Installation,Installation Team,2023-05-16,1,2023-05-17,100,9,Installation,
+Lakeview PS: Delivery,Delivery Team,2023-05-04,1,2023-05-05,100,4,Delivery,
+Lakeview PS: Installation,Installation Team,2023-05-05,1,2023-05-06,100,4,Installation,
+LePhare ES: Delivery,Delivery Team,2023-03-15,1,2023-03-16,100,12,Delivery,
+LePhare ES: Installation,Installation Team,2023-03-16,1,2023-03-17,100,12,Installation,
+MacSkimming: Delivery,Delivery Team,2023-05-04,1,2023-05-05,100,0,Delivery,
+MacSkimming: Installation,Installation Team,2023-05-05,1,2023-05-06,100,0,Installation,
+Manordale PS: Delivery,Delivery Team,2025-03-05,1,2025-03-06,0,3,Delivery,
+Manordale PS: Installation,Installation Team,2025-03-06,1,2025-03-07,0,3,Installation,
+Manotick PS: Delivery,Delivery Team,2023-08-20,1,2023-08-21,100,1,Delivery,
+Manotick PS: Installation,Installation Team,2023-08-21,1,2023-08-22,100,1,Installation,
+Maple Ridge PS: Delivery,Delivery Team,2023-06-28,1,2023-06-29,100,8,Delivery,
+Maple Ridge PS: Installation,Installation Team,2023-06-29,1,2023-06-30,100,8,Installation,
+Mary Honeywell PS: Delivery,Delivery Team,2023-08-14,1,2023-08-15,100,3,Delivery,
+Mary Honeywell PS: Installation,Installation Team,2023-08-15,1,2023-08-16,100,3,Installation,
+Meadowlands PS: Delivery,Delivery Team,2023-07-19,1,2023-07-20,100,5,Delivery,
+Meadowlands PS: Installation,Installation Team,2023-07-20,1,2023-07-21,100,5,Installation,
+Metcalfe PS: Delivery,Delivery Team,2023-03-15,1,2023-03-16,100,7,Delivery,
+Metcalfe PS: Installation,Installation Team,2023-03-16,1,2023-03-17,100,7,Installation,
+Mutchmor PS: Delivery,Delivery Team,2025-03-07,1,2025-03-08,0,9,Delivery,
+Mutchmor PS: Installation,Installation Team,2025-03-08,1,2025-03-09,0,9,Installation,
+North Gower-Marlboro: Delivery,Delivery Team,2023-06-27,1,2023-06-28,100,1,Delivery,
+North Gower-Marlboro: Installation,Installation Team,2023-06-28,1,2023-06-29,100,1,Installation,
+Orleans Wood PS: Delivery,Delivery Team,2023-07-05,1,2023-07-06,100,8,Delivery,UPS not plugged in due to power 
+Orleans Wood PS: Installation,Installation Team,2023-07-06,1,2023-07-07,100,8,Installation,UPS not plugged in due to power 
+Osgoode PS: Delivery,Delivery Team,2023-06-26,1,2023-06-27,100,7,Delivery,
+Osgoode PS: Installation,Installation Team,2023-06-27,1,2023-06-28,100,7,Installation,
+Pleasant Park PS: Delivery,Delivery Team,2023-05-09,1,2023-05-10,100,6,Delivery,"UPS can't be installed on DC2, UPS will be returned to Pleasant Park"
+Pleasant Park PS: Installation,Installation Team,2023-05-10,1,2023-05-11,100,6,Installation,"UPS can't be installed on DC2, UPS will be returned to Pleasant Park"
+Queen Elizabeth PS: Delivery,Delivery Team,2023-07-30,1,2023-07-31,100,6,Delivery,
+Queen Elizabeth PS: Installation,Installation Team,2023-07-31,1,2023-08-01,100,6,Installation,
+Queen Mary St. PS: Delivery,Delivery Team,2023-05-14,1,2023-05-15,100,6,Delivery,
+Queen Mary St. PS: Installation,Installation Team,2023-05-15,1,2023-05-16,100,6,Installation,
+Regina St. PS: Delivery,Delivery Team,2025-03-09,1,2025-03-10,0,4,Delivery,
+Regina St. PS: Installation,Installation Team,2025-03-10,1,2025-03-11,0,4,Installation,
+Richmond PS: Delivery,Delivery Team,2023-08-02,1,2023-08-03,100,1,Delivery,
+Richmond PS: Installation,Installation Team,2023-08-03,1,2023-08-04,100,1,Installation,
+Rideau Valley Kars MS: Delivery,Delivery Team,2023-07-16,1,2023-07-17,100,0,Delivery,One faulty UPS to be picked
+Rideau Valley Kars MS: Installation,Installation Team,2023-07-17,1,2023-07-18,100,0,Installation,One faulty UPS to be picked
+Riverview Alternate: Delivery,Delivery Team,2023-08-16,1,2023-08-17,100,6,Delivery,"3 UPS intitally scheduled but only one power outlet in dc1, 2 UPS returned back to parkwood."
+Riverview Alternate: Installation,Installation Team,2023-08-17,1,2023-08-18,100,6,Installation,"3 UPS intitally scheduled but only one power outlet in dc1, 2 UPS returned back to parkwood."
+Robert Bateman PS: Delivery,Delivery Team,2023-07-12,1,2023-07-13,100,11,Delivery,
+Robert Bateman PS: Installation,Installation Team,2023-07-13,1,2023-07-14,100,11,Installation,
+Robert E. Wilson PS: Delivery,Delivery Team,2023-08-15,1,2023-08-16,100,9,Delivery,
+Robert E. Wilson PS: Installation,Installation Team,2023-08-16,1,2023-08-17,100,9,Installation,
+Robert Hopkins PS: Delivery,Delivery Team,2023-07-17,1,2023-07-18,100,12,Delivery,
+Robert Hopkins PS: Installation,Installation Team,2023-07-18,1,2023-07-19,100,12,Installation,
+Roberta Bondar PS: Delivery,Delivery Team,2025-03-11,1,2025-03-12,0,11,Delivery,
+Roberta Bondar PS: Installation,Installation Team,2025-03-12,1,2025-03-13,0,11,Installation,
+Roch Carrier ES: Delivery,Delivery Team,2023-02-07,1,2023-02-08,100,2,Delivery,
+Roch Carrier ES: Installation,Installation Team,2023-02-08,1,2023-02-09,100,2,Installation,
+Rockliffe Park PS: Delivery,Delivery Team,2025-03-13,1,2025-03-14,0,6,Delivery,
+Rockliffe Park PS: Installation,Installation Team,2025-03-14,1,2025-03-15,0,6,Installation,
+Roland Michner PS: Delivery,Delivery Team,2025-03-15,1,2025-03-16,0,2,Delivery,
+Roland Michner PS: Installation,Installation Team,2025-03-16,1,2025-03-17,0,2,Installation,
+Sawmill Creek PS: Delivery,Delivery Team,2025-03-17,1,2025-03-18,0,11,Delivery,
+Sawmill Creek PS: Installation,Installation Team,2025-03-18,1,2025-03-19,0,11,Installation,
+Severn Ave. PS: Delivery,Delivery Team,2025-03-19,1,2025-03-20,0,4,Delivery,
+Severn Ave. PS: Installation,Installation Team,2025-03-20,1,2025-03-21,0,4,Installation,
+Sir Winston Chruchill PS: Delivery,Delivery Team,2025-03-21,1,2025-03-22,0,3,Delivery,
+Sir Winston Chruchill PS: Installation,Installation Team,2025-03-22,1,2025-03-23,0,3,Installation,
+South March PS: Delivery,Delivery Team,2025-03-23,1,2025-03-24,0,2,Delivery,
+South March PS: Installation,Installation Team,2025-03-24,1,2025-03-25,0,2,Installation,
+Stephen Leacock PS: Delivery,Delivery Team,2023-08-16,1,2023-08-17,100,2,Delivery,
+Stephen Leacock PS: Installation,Installation Team,2023-08-17,1,2023-08-18,100,2,Installation,
+Steve MacLean PS: Delivery,Delivery Team,2023-10-11,1,2023-10-12,0,7,Delivery,
+Steve MacLean PS: Installation,Installation Team,2023-10-12,1,2023-10-13,0,7,Installation,
+Stittsville PS: Delivery,Delivery Team,2023-07-23,1,2023-07-24,100,1,Delivery,
+Stittsville PS: Installation,Installation Team,2023-07-24,1,2023-07-25,100,1,Installation,
+Stonecrest PS: Delivery,Delivery Team,2023-03-16,1,2023-03-17,100,1,Delivery,.30 / .21 missed
+Stonecrest PS: Installation,Installation Team,2023-03-17,1,2023-03-18,100,1,Installation,.30 / .21 missed
+Summerside PS: Delivery,Delivery Team,2023-07-16,1,2023-07-17,100,8,Delivery,
+Summerside PS: Installation,Installation Team,2023-07-17,1,2023-07-18,100,8,Installation,
+Terry Fox ES: Delivery,Delivery Team,2025-03-25,1,2025-03-26,0,8,Delivery,
+Terry Fox ES: Installation,Installation Team,2025-03-26,1,2025-03-27,0,8,Installation,
+Trillium PS: Delivery,Delivery Team,2023-08-09,1,2023-08-10,100,8,Delivery,
+Trillium PS: Installation,Installation Team,2023-08-10,1,2023-08-11,100,8,Installation,
+Vimy Ridge PS: Delivery,Delivery Team,2025-03-27,1,2025-03-28,0,7,Delivery,
+Vimy Ridge PS: Installation,Installation Team,2025-03-28,1,2025-03-29,0,7,Installation,
+Vincent Massey PS: Delivery,Delivery Team,2023-07-30,1,2023-07-31,100,6,Delivery,
+Vincent Massey PS: Installation,Installation Team,2023-07-31,1,2023-08-01,100,6,Installation,
+Viscount Alexander PS: Delivery,Delivery Team,2025-03-29,1,2025-03-30,0,9,Delivery,
+Viscount Alexander PS: Installation,Installation Team,2025-03-30,1,2025-03-31,0,9,Installation,
+W.E. Gowling PS: Delivery,Delivery Team,2025-03-31,1,2025-04-01,0,11,Delivery,
+W.E. Gowling PS: Installation,Installation Team,2025-04-01,1,2025-04-02,0,11,Installation,
+W.E. Johnston PS: Delivery,Delivery Team,2023-07-17,1,2023-07-18,100,2,Delivery,
+W.E. Johnston PS: Installation,Installation Team,2023-07-18,1,2023-07-19,100,2,Installation,
+W.O. Mitchell ES: Delivery,Delivery Team,2023-07-18,1,2023-07-19,100,2,Delivery,
+W.O. Mitchell ES: Installation,Installation Team,2023-07-19,1,2023-07-20,100,2,Installation,
+Westwind PS: Delivery,Delivery Team,2023-06-21,1,2023-06-22,100,1,Delivery,
+Westwind PS: Installation,Installation Team,2023-06-22,1,2023-06-23,100,1,Installation,
+Woodroffe Ave. PS: Delivery,Delivery Team,2023-02-12,1,2023-02-13,100,4,Delivery,"Yao returned the extra UPS back to Parkwood / portable 372 (.40) but UPS (.30)
+2 in dc1 / 1 in dc 2 / 1 in portable"
+Woodroffe Ave. PS: Installation,Installation Team,2023-02-13,1,2023-02-14,100,4,Installation,"Yao returned the extra UPS back to Parkwood / portable 372 (.40) but UPS (.30)
+2 in dc1 / 1 in dc 2 / 1 in portable"
+Albert ST ps: Delivery,Delivery Team,2023-06-06,1,2023-06-07,100,0,Delivery,schedule  one level 7 along with Vishal / 2 UPS DC2 not mentioned
+Albert ST ps: Installation,Installation Team,2023-06-07,1,2023-06-08,100,0,Installation,schedule  one level 7 along with Vishal / 2 UPS DC2 not mentioned
+A.Y. Jackson SS: Delivery,Delivery Team,2023-05-18,1,2023-05-19,100,2,Delivery,3 UPS in DC1
+A.Y. Jackson SS: Installation,Installation Team,2023-05-19,1,2023-05-20,100,2,Installation,3 UPS in DC1
+Adult HS: Delivery,Delivery Team,2025-04-02,1,2025-04-03,0,10,Delivery,
+Adult HS: Installation,Installation Team,2025-04-03,1,2025-04-04,0,10,Installation,
+Bell HS: Delivery,Delivery Team,2023-02-01,1,2023-02-02,100,5,Delivery,
+Bell HS: Installation,Installation Team,2023-02-02,1,2023-02-03,100,5,Installation,
+Brookfield HS: Delivery,Delivery Team,2025-04-04,1,2025-04-05,0,11,Delivery,
+Brookfield HS: Installation,Installation Team,2025-04-05,1,2025-04-06,0,11,Installation,
+Cairine Wilson SS: Delivery,Delivery Team,2025-04-06,1,2025-04-07,0,8,Delivery,
+Cairine Wilson SS: Installation,Installation Team,2025-04-07,1,2025-04-08,0,8,Installation,
+Canterbury HS: Delivery,Delivery Team,2023-07-11,1,2023-07-12,100,6,Delivery,
+Canterbury HS: Installation,Installation Team,2023-07-12,1,2023-07-13,100,6,Installation,
+Colonel By SS: Delivery,Delivery Team,2025-04-08,1,2025-04-09,0,12,Delivery,
+Colonel By SS: Installation,Installation Team,2025-04-09,1,2025-04-10,0,12,Installation,
+Earl of March SS: Delivery,Delivery Team,2025-04-10,1,2025-04-11,0,2,Delivery,
+Earl of March SS: Installation,Installation Team,2025-04-11,1,2025-04-12,0,2,Installation,
+Elizabeth Wyn Wood Sec. Alt: Delivery,Delivery Team,2023-08-17,1,2023-08-18,100,5,Delivery,
+Elizabeth Wyn Wood Sec. Alt: Installation,Installation Team,2023-08-18,1,2023-08-19,100,5,Installation,
+Frederick Banting Sec. Alt.: Delivery,Delivery Team,2023-07-24,1,2023-07-25,100,1,Delivery,
+Frederick Banting Sec. Alt.: Installation,Installation Team,2023-07-25,1,2023-07-26,100,1,Installation,
+Glebe C.I.: Delivery,Delivery Team,2025-04-12,1,2025-04-13,0,9,Delivery,
+Glebe C.I.: Installation,Installation Team,2025-04-13,1,2025-04-14,0,9,Installation,
+Gloucester HS: Delivery,Delivery Team,2024-12-29,1,2024-12-30,100,12,Delivery,
+Gloucester HS: Installation,Installation Team,2024-12-30,1,2024-12-31,100,12,Installation,
+Hillcrest HS: Delivery,Delivery Team,2023-04-30,1,2023-05-01,100,6,Delivery,No portable
+Hillcrest HS: Installation,Installation Team,2023-05-01,1,2023-05-02,100,6,Installation,No portable
+John McCrae SS: Delivery,Delivery Team,2025-04-14,1,2025-04-15,0,3,Delivery,
+John McCrae SS: Installation,Installation Team,2025-04-15,1,2025-04-16,0,3,Installation,
+Lisgar C.I.: Delivery,Delivery Team,2025-04-16,1,2025-04-17,0,10,Delivery,
+Lisgar C.I.: Installation,Installation Team,2025-04-17,1,2025-04-18,0,10,Installation,
+Longfields-Davidson Heights SS: Delivery,Delivery Team,2025-04-18,1,2025-04-19,0,3,Delivery,
+Longfields-Davidson Heights SS: Installation,Installation Team,2025-04-19,1,2025-04-20,0,3,Installation,
+Merivale HS: Delivery,Delivery Team,2025-04-20,1,2025-04-21,0,3,Delivery,
+Merivale HS: Installation,Installation Team,2025-04-21,1,2025-04-22,0,3,Installation,
+Nepean HS: Delivery,Delivery Team,2025-04-22,1,2025-04-23,0,10,Delivery,
+Nepean HS: Installation,Installation Team,2025-04-23,1,2025-04-24,0,10,Installation,
+Norman Johnston Sec. Alt.: Delivery,Delivery Team,2023-07-26,1,2023-07-27,100,12,Delivery,
+Norman Johnston Sec. Alt.: Installation,Installation Team,2023-07-27,1,2023-07-28,100,12,Installation,
+Osgoode Township HS: Delivery,Delivery Team,2023-03-15,1,2023-03-16,100,7,Delivery,
+Osgoode Township HS: Installation,Installation Team,2023-03-16,1,2023-03-17,100,7,Installation,
+Ottawa Tech: Delivery,Delivery Team,2023-07-25,1,2023-07-26,100,6,Delivery,
+Ottawa Tech: Installation,Installation Team,2023-07-26,1,2023-07-27,100,6,Installation,
+Richard Pfaff Alt.: Delivery,Delivery Team,2023-08-16,1,2023-08-17,100,10,Delivery,
+Richard Pfaff Alt.: Installation,Installation Team,2023-08-17,1,2023-08-18,100,10,Installation,
+Ridgemont HS: Delivery,Delivery Team,2023-03-01,1,2023-03-02,100,6,Delivery,
+Ridgemont HS: Installation,Installation Team,2023-03-02,1,2023-03-03,100,6,Installation,
+Sir Robert Borden SS: Delivery,Delivery Team,2025-04-24,1,2025-04-25,0,3,Delivery,
+Sir Robert Borden SS: Installation,Installation Team,2025-04-25,1,2025-04-26,0,3,Installation,
+South Carleton SS: Delivery,Delivery Team,2023-07-09,1,2023-07-10,100,1,Delivery,
+South Carleton SS: Installation,Installation Team,2023-07-10,1,2023-07-11,100,1,Installation,
+West Carleton SS: Delivery,Delivery Team,2023-01-31,1,2023-02-01,100,1,Delivery,1 unused UPS at WCAR located at DC1
+West Carleton SS: Installation,Installation Team,2023-02-01,1,2023-02-02,100,1,Installation,1 unused UPS at WCAR located at DC1
+Woodroffe HS: Delivery,Delivery Team,2023-02-12,1,2023-02-13,100,4,Delivery,2 portables
+Woodroffe HS: Installation,Installation Team,2023-02-13,1,2023-02-14,100,4,Installation,2 portables
+Arch St. PS: Issue Resolution,Specialized Team,2025-04-26,2,2025-04-28,30,6,Issue Resolution,DC2 UPS can't be replaced because rack is wall mounted
+Broadview PS: Issue Resolution,Specialized Team,2025-04-29,2,2025-05-01,100,10,Issue Resolution,"Only 6 UPS  are needed, the remaining one UPS will be moved to AY jackson"
+Glen Ogilvie PS: Issue Resolution,Specialized Team,2025-05-02,2,2025-05-04,30,12,Issue Resolution,"2 UPS connected to the recepticle,  One UPS is unused.  One recepticle is needed"
+Goulbourn MS: Issue Resolution,Specialized Team,2025-05-05,2,2025-05-07,30,1,Issue Resolution, Two more UPS needed here
+Henry Munroe MS: Issue Resolution,Specialized Team,2025-05-08,2,2025-05-10,30,12,Issue Resolution,"only one UPS connected to the the recepticle, the two other UPS are still sitting there. Two more receptile needs to installed for the UPS"
+Jack Donohue PS: Issue Resolution,Specialized Team,2025-05-11,2,2025-05-13,30,2,Issue Resolution,.10-12 & .20
+Kanata Highlands PS: Issue Resolution,Specialized Team,2025-05-14,2,2025-05-16,100,2,Issue Resolution,.20 not UPDATED
+Pleasant Park PS: Issue Resolution,Specialized Team,2025-05-17,2,2025-05-19,30,6,Issue Resolution,"UPS can't be installed on DC2, UPS will be returned to Pleasant Park"
+Rideau Valley Kars MS: Issue Resolution,Specialized Team,2025-05-20,2,2025-05-22,100,0,Issue Resolution,"One new UPS needs to be picked, 3 old UPS to be picked"
+Stonecrest PS: Issue Resolution,Specialized Team,2025-05-23,2,2025-05-25,30,1,Issue Resolution,.30 / .21 missed
+Woodroffe Ave. PS: Issue Resolution,Specialized Team,2025-05-26,2,2025-05-28,30,4,Issue Resolution,"Yao returned the extra UPS back to Parkwood / portable 372 (.40) but UPS (.30)
+2 in dc1 / 1 in dc 2 / 1 in portable"
+York St. PS: Issue Resolution,Specialized Team,2025-05-29,2,2025-05-31,100,9,Issue Resolution,
+Albert ST ps: Issue Resolution,Specialized Team,2025-06-01,2,2025-06-03,100,0,Issue Resolution,schedule  one level 7 along with Vishal / 2 UPS DC2 not mentioned
+A.Y. Jackson SS: Issue Resolution,Specialized Team,2025-06-04,2,2025-06-06,100,2,Issue Resolution,3 UPS in DC1
+Hillcrest HS: Issue Resolution,Specialized Team,2025-06-07,2,2025-06-09,30,6,Issue Resolution,No portable
+Woodroffe HS: Issue Resolution,Specialized Team,2025-06-10,2,2025-06-12,100,4,Issue Resolution,2 portables
+Bayshore PS: Issue Resolution,Specialized Team,2025-06-13,2,2025-06-15,30,4,Issue Resolution,"requires two extra UPS, 1 UPS for portable, 1 UPS to replace another faulty one in DC1, 
+"
+Westwind PS: Issue Resolution,Specialized Team,2025-06-16,2,2025-06-18,30,1,Issue Resolution,
+Maple Ridge: Issue Resolution,Specialized Team,2025-06-19,2,2025-06-21,30,0,Issue Resolution,"power issue at Maple ridge,  Old UPS needs to used until the power is restored at the school.
+"
+ORLW: Issue Resolution,Specialized Team,2025-06-22,2,2025-06-24,30,0,Issue Resolution,Possible power issue between 6:30 am till 7:30 Pm that affect UPS to get online frequently
+Final Documentation,Project Manager,2025-06-27,3,2025-06-30,0,0,Closeout,
+Project Review,Project Manager,2025-07-01,1,2025-07-02,0,0,Closeout,

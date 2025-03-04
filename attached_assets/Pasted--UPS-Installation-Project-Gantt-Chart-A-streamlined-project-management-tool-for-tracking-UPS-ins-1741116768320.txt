@@ -1,0 +1,232 @@
+# UPS Installation Project Gantt Chart
+
+A streamlined project management tool for tracking UPS installations across school board sites. This application provides visualization, scheduling, and reporting capabilities to help manage the installation of UPS units across multiple schools.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+- [Features](#features)
+  - [Gantt Chart View](#gantt-chart-view)
+  - [Data Editor](#data-editor)
+  - [Project Summary](#project-summary)
+- [Working with Excel Data](#working-with-excel-data)
+- [Filtering and Visualization](#filtering-and-visualization)
+- [Troubleshooting](#troubleshooting)
+
+## Overview
+
+This tool is designed to help project managers track and visualize the UPS installation project across school board sites. It allows you to:
+
+- Visualize installation schedules using interactive Gantt charts
+- Filter and search for specific schools, time periods, or task types
+- Track progress with completion percentages and summary analytics
+- Import data directly from your UPS Project Tracking spreadsheet
+- Edit and manage task information in a user-friendly interface
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7 or higher
+- Required packages (install using `pip install -r requirements.txt`):
+  - streamlit
+  - pandas
+  - plotly
+  - numpy
+  - openpyxl
+
+### Running the Application
+
+1. Install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
+
+2. Run the Streamlit application:
+   ```
+   streamlit run main.py
+   ```
+
+3. The application will open in your default web browser.
+
+## Features
+
+### Gantt Chart View
+
+The Gantt Chart view provides a visual timeline of all tasks in the project.
+
+![Gantt Chart View](https://via.placeholder.com/800x400)
+
+#### Filtering Options
+
+The sidebar offers multiple filtering options to help manage large datasets:
+
+- **Time Period**: Filter tasks by date range
+  - All Dates
+  - Next 30 Days
+  - Next 90 Days
+  - Custom Range
+
+- **Categories**: Filter by task type
+  - Planning
+  - Delivery
+  - Installation
+  - Issue Resolution
+  - Revisit
+  - Closeout
+
+- **Trustee Zones**: Filter by zone number
+  - Select multiple zones to compare
+
+- **Schools**: Filter by school name
+  - Search box to quickly find schools
+  - Multi-select to view specific schools
+
+- **Status**: Filter by completion status
+  - All Tasks
+  - Incomplete Tasks
+  - Completed Tasks
+
+#### Tips for Using the Gantt Chart
+
+- **Start with Time Period**: Begin by selecting a reasonable time frame
+- **Limit School Selection**: Select only 5-10 schools at a time for better readability
+- **Hover for Details**: Hover over tasks to see detailed information
+- **Expand Task Details**: Use the "View Filtered Task Details" expander below the chart
+
+### Data Editor
+
+The Data Editor view allows you to manage task information.
+
+![Data Editor View](https://via.placeholder.com/800x400)
+
+#### Edit Data Tab
+
+- View and edit all task information in a spreadsheet-like interface
+- Update dates, resources, completion percentages, and notes
+- Click "Update Data" to save changes
+
+#### Add Task Tab
+
+- Create new tasks with all required information
+- Specify start dates, duration, and relevant details
+- Assign to appropriate categories and zones
+
+#### Delete Task Tab
+
+- Remove tasks that are no longer needed
+- Select tasks from the dropdown menu
+
+#### Upload/Download Tab
+
+- **Convert Excel Data**: Import from your UPS Project Tracking sheet
+- **Upload CSV**: Import previously saved data
+- **Download Data**: Export current data as a CSV file
+
+### Project Summary
+
+The Project Summary view provides analytics and metrics for the project.
+
+![Project Summary View](https://via.placeholder.com/800x400)
+
+#### Available Analytics
+
+- **Overall Progress**: Task completion metrics
+  - Total Tasks
+  - Completed Tasks
+  - In Progress Tasks
+  - Not Started Tasks
+
+- **Task Distribution**: Visualizations of task categories and zones
+  - Pie chart by category
+  - Bar chart by trustee zone
+
+- **Project Timeline**: Key dates and durations
+  - Project Start
+  - Project End
+  - Total Duration
+
+- **Monthly Task Distribution**: Chart showing task distribution over time
+
+## Working with Excel Data
+
+### Importing from UPS Project Tracking Sheet
+
+1. Navigate to the **Data Editor** view
+2. Select the **Upload/Download** tab
+3. Under "Convert UPS Project Excel File", click "Browse files"
+4. Select your UPS Project Tracking sheet.xlsx file
+5. Click "Convert Excel Data"
+6. The application will process:
+   - Schools from the "Project status" sheet
+   - Issues from the "school with issues" sheet
+   - Revisits from the "Schools to be revisted" sheet
+7. All data will be imported and displayed in the Gantt chart
+
+### Data Format Structure
+
+The converter creates the following task structure:
+
+- **Delivery Tasks**: "[School Name]: Delivery"
+- **Installation Tasks**: "[School Name]: Installation"
+- **Issue Resolution Tasks**: "[School Name]: Issue Resolution"
+- **Revisit Tasks**: "[School Name]: Revisit"
+
+Each task includes:
+- Start and end dates
+- Resource assignments
+- Completion percentages
+- Trustee zone information
+- Notes and issues
+
+## Filtering and Visualization
+
+### Managing Large Datasets
+
+When working with large numbers of tasks (over 50), consider these approaches:
+
+1. **Time-Based Filtering**: Focus on upcoming tasks (Next 30 Days)
+2. **Category Focus**: View only specific categories (e.g., only Installation)
+3. **School Selection**: Use the search function to find specific schools
+4. **Zone Filtering**: View one zone at a time
+5. **Status Filtering**: Separate completed and incomplete tasks
+
+### Visualization Best Practices
+
+- **Regular Updates**: Keep completion percentages current
+- **Consistent Naming**: Maintain consistent school naming conventions
+- **Note Important Information**: Use the Notes field for critical information
+- **Color Coding**: Tasks are automatically color-coded by category
+- **Monthly View**: For high-level planning, use the Monthly Task Distribution
+
+## Troubleshooting
+
+### Common Issues and Solutions
+
+- **Chart Not Displaying**: Too many tasks may cause display issues. Use more filtering to reduce the number of displayed tasks.
+
+- **Mixed Data Types**: If you see errors about comparing strings and integers, your Trustee_Zone data might have mixed formats. The application should handle this automatically.
+
+- **Date Format Issues**: Ensure dates in any imported CSVs use standard formats (YYYY-MM-DD).
+
+- **Missing Schools**: Check that school names in different sheets match exactly.
+
+- **Performance Issues**: Large datasets may cause slowdowns. Use focused filtering for better performance.
+
+### Data Backup
+
+The application automatically saves data to a `gantt_data.csv` file in your working directory. This file is loaded when you restart the application.
+
+For backup purposes:
+1. Use the Download feature to save a CSV copy
+2. Store backup copies in a secure location
+3. Consider date-stamping exports (e.g., ups_gantt_2023-05-15.csv)
+
+## Support and Feedback
+
+For additional help or to provide feedback, please contact the IT support team.
+
+---
+
+*This documentation is for the UPS Installation Project Gantt Chart tool, version 1.0.*
