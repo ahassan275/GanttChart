@@ -359,23 +359,44 @@ def create_gantt_chart():
         # Filter by school name using search
         st.write("### Schools")
         all_schools = sorted(chart_data['School'].unique())
+        
+        # Store if user has explicitly interacted with school selection
+        if 'school_selection_changed' not in st.session_state:
+            st.session_state.school_selection_changed = False
+            
         school_search = st.text_input("Search for specific school:")
+        
+        # Set default schools - but we'll track if user changes this
+        default_schools = all_schools[:5] if len(all_schools) > 5 else all_schools
         
         if school_search:
             matching_schools = [school for school in all_schools if school_search.lower() in school.lower()]
             selected_schools = st.multiselect(
                 "Select schools:",
                 options=all_schools,
-                default=matching_schools
+                default=matching_schools,
+                key="school_selector"
             )
+            # User has explicitly searched, so mark as changed
+            st.session_state.school_selection_changed = True
         else:
-            # Limit the default selection to a manageable number of schools
-            default_schools = all_schools[:5] if len(all_schools) > 5 else all_schools
-            selected_schools = st.multiselect(
-                "Select schools:",
-                options=all_schools,
-                default=default_schools
-            )
+            # Check if we should use "All Schools" option
+            use_all_schools = st.checkbox("Show all schools", value=False)
+            
+            if use_all_schools:
+                selected_schools = all_schools
+                st.session_state.school_selection_changed = True
+            else:
+                selected_schools = st.multiselect(
+                    "Select schools:",
+                    options=all_schools,
+                    default=default_schools,
+                    key="school_selector"
+                )
+                
+                # Check if the selection has changed from default
+                if set(selected_schools) != set(default_schools):
+                    st.session_state.school_selection_changed = True
         
         # Filter by completion status
         st.write("### Status")
@@ -390,22 +411,44 @@ def create_gantt_chart():
             options=list(completion_options.keys())
         )
     
-    # Apply all filters
-    if selected_categories:
-        chart_data = chart_data[chart_data['Category'].isin(selected_categories)]
+    # Debugging code - this helps identify why only some Issue Resolution tasks are showing
+    with st.expander("View Category Distribution", expanded=False):
+        # Check distribution by category
+        category_counts = chart_data['Category'].value_counts().reset_index()
+        category_counts.columns = ['Category', 'Count']
+        st.write("Tasks by category:")
+        st.dataframe(category_counts)
         
+        # Check specifically for Issue Resolution tasks
+        issue_tasks = chart_data[chart_data['Category'] == 'Issue Resolution']
+        st.write(f"Issue Resolution tasks: {len(issue_tasks)}")
+        st.dataframe(issue_tasks[['Task', 'School', 'Category', 'Trustee_Zone', 'Completion_pct']])
+    
+    # Apply filters - Fixed filtering logic
+    filtered_data = chart_data.copy()
+    
+    # Apply category filter if selected
+    if selected_categories:
+        filtered_data = filtered_data[filtered_data['Category'].isin(selected_categories)]
+    
+    # Apply zone filter if selected
     if selected_zones:
-        chart_data = chart_data[chart_data['Trustee_Zone'].isin(selected_zones)]
+        filtered_data = filtered_data[filtered_data['Trustee_Zone'].isin(selected_zones)]
     
-    if selected_schools:
-        chart_data = chart_data[chart_data['School'].isin(selected_schools)]
+    # Apply school filter ONLY if user has explicitly changed the selection
+    if st.session_state.school_selection_changed:
+        filtered_data = filtered_data[filtered_data['School'].isin(selected_schools)]
     
+    # Apply completion status filter
     if selected_completion != "All Tasks":
         threshold = completion_options[selected_completion]
         if threshold == 100:
-            chart_data = chart_data[chart_data['Completion_pct'] == 100]
+            filtered_data = filtered_data[filtered_data['Completion_pct'] == 100]
         else:
-            chart_data = chart_data[chart_data['Completion_pct'] < 100]
+            filtered_data = filtered_data[filtered_data['Completion_pct'] < 100]
+    
+    # Update chart_data with filtered results
+    chart_data = filtered_data
     
     # Display number of tasks after filtering
     st.write(f"Displaying {len(chart_data)} tasks")
@@ -613,3 +656,16 @@ st.sidebar.info(
     - Download CSV for backup or sharing
     """
 )
+
+# Add a checkbox to enable/disable debugging information 
+if view_option == "Gantt Chart":
+    st.sidebar.markdown("---")
+    show_debug = st.sidebar.checkbox("Show Debugging Information", value=False)
+    
+    if show_debug:
+        st.sidebar.markdown("""
+        **Debugging Info:**
+        - The "View Category Distribution" expander shows raw data
+        - School filtering is only applied when explicitly changed
+        - Default is to show all Issue Resolution tasks
+        """)
