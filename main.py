@@ -7,6 +7,7 @@ import numpy as np
 import io
 import base64
 import os
+import openpyxl
 
 # Import the data_converter if it exists
 try:
